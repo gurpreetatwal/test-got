@@ -1,0 +1,32 @@
+{
+  "name": "test-got",
+  "version": "0.0.0",
+  "description": "Wrapper around the got library to make it easier to use for unit tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurpreetatwal/test-got.git"
+  },
+  "keywords": [
+    "got",
+    "unit-test",
+    "ava"
+  ],
+  "author": "Gurpreet Atwal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gurpreetatwal/test-got/issues"
+  },
+  "homepage": "https://github.com/gurpreetatwal/test-got#readme",
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "eslint": "^3.6.1",
+    "nyc": "^8.3.0"
+  },
+  "dependencies": {
+    "got": "^6.5.0"
+  }
+}
