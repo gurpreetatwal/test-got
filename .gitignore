@@ -1,0 +1,33 @@
+# General
+node_modules
+coverage
+.nyc-output
+.eslintcache
+*.log
+
+# Editors
+## Vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+Session.vim
+.netrwhist
+tags
+
+## VS Code
+.vscode
+
+# Operating System
+## Linux
+*~
+
+## macOS
+*.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
