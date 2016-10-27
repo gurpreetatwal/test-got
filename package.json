@@ -27,6 +27,7 @@
     "nyc": "^8.3.0"
   },
   "dependencies": {
-    "got": "^6.5.0"
+    "got": "^6.5.0",
+    "url-parse-lax": "^1.0.0"
   }
 }
