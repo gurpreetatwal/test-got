@@ -1,6 +1,6 @@
 {
   "name": "test-got",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wrapper around the got library to make it easier to use for unit tests",
   "main": "index.js",
   "scripts": {

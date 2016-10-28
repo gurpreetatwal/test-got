@@ -14,7 +14,7 @@ function getPort(arg) {
   return server.address().port;
 }
 
-function normalizeArgs(url, options) {
+function normalizeArgs(url, opts) {
   if (typeof url !== 'string' && typeof url !== 'object') {
     throw new Error(`Parameter \`url\` must be a string or object, not ${typeof url}`);
   }
@@ -40,10 +40,10 @@ module.exports = function request(arg) {
   const port = getPort(arg);
 
   function mergeDefault(url, options) {
-    return Object.assign({
-      hostname: '127.0.0.1',
-      port: port,
-    }, normalizeArgs(url, options));
+    options = normalizeArgs(url, options);
+    options.hostname = options.hostname || '127.0.0.1';
+    options.port = options.port || port;
+    return options;
   }
 
   function Got(url, options) {
