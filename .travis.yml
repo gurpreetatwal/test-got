@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - 'node'
+  - '6'
+  - '4'
+
+deploy:
+  on:
+    branch: master
+    node: stable
+  provider: npm
+  email: gurpreetatwal@users.noreply.github.com
+  api_key: $NPM_TOKEN
