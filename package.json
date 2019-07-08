@@ -1,6 +1,6 @@
 {
   "name": "test-got",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Wrapper around the got library to make it easier to use for unit tests",
   "main": "index.js",
   "scripts": {
@@ -22,9 +22,9 @@
   },
   "homepage": "https://github.com/gurpreetatwal/test-got#readme",
   "devDependencies": {
-    "ava": "^0.16.0",
-    "eslint": "^3.6.1",
-    "nyc": "^8.3.0"
+    "ava": "^2.1.0",
+    "eslint": "^6.0.1",
+    "nyc": "^14.1.1"
   },
   "dependencies": {
     "got": "^6.5.0",
